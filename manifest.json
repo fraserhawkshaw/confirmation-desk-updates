@@ -1,7 +1,7 @@
 {
-  "version": "1.4.0",
-  "shell": "1.4.0",
-  "file": "ui/ui-1.4.0.html",
-  "sha256": "e7e3920ea394515dd32006394ce65d19df0275f80d29f1a38914fff3c7a5afe6",
-  "notes": "Crew, delivery, revised and cancellation emails, QuickBooks lines, backups"
+  "version": "1.5.1",
+  "shell": "1.5.0",
+  "file": "ui/ui-1.5.1.html",
+  "sha256": "9a0f71f93146d40b74e008725796e5a52d46c681061edd6e665418b1dd3113df",
+  "notes": "Tabs for each email, date ranges, CC emails and online agreement signing"
 }

@@ -1,7 +1,7 @@
 {
-  "version": "1.5.1",
-  "shell": "1.5.0",
-  "file": "ui/ui-1.5.1.html",
-  "sha256": "9a0f71f93146d40b74e008725796e5a52d46c681061edd6e665418b1dd3113df",
-  "notes": "Tabs for each email, date ranges, CC emails and online agreement signing"
+  "version": "1.6.1",
+  "shell": "1.6.0",
+  "file": "ui/ui-1.6.1.html",
+  "sha256": "82c60f622fd62f88e629002ad3cc6ad404f244b15c9305aea7c0052c0e7b0b1b",
+  "notes": "Job manager: brief, notes, to-dos, money and deliverables"
 }

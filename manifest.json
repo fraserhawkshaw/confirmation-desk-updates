@@ -1,7 +1,7 @@
 {
-  "version": "1.6.1",
+  "version": "1.6.2",
   "shell": "1.6.0",
-  "file": "ui/ui-1.6.1.html",
-  "sha256": "82c60f622fd62f88e629002ad3cc6ad404f244b15c9305aea7c0052c0e7b0b1b",
-  "notes": "Job manager: brief, notes, to-dos, money and deliverables"
+  "file": "ui/ui-1.6.2.html",
+  "sha256": "9750eb958561b484db8f1e73f743d4ce9c0c689cf7f7a5c2d8682745b1aac032",
+  "notes": "Plan tab: kit, camera positions, data calculator, prep sheet and weather"
 }

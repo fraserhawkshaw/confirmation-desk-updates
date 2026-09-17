@@ -1,1 +1,1 @@
-{"version": "1.6.6", "shell": "1.6.0", "file": "ui/ui-1.6.6.html", "sha256": "93e7e4eed2d35070cc827ced5bbe54a196c0d3af96d5bf8816794cd8dc7dcda1", "notes": "Batteries and cables on their own shelves, and the kit count drops as you put things on the plan"}
+{"version": "1.7.0", "shell": "1.6.0", "file": "ui/ui-1.7.0.html", "sha256": "252a3d8773024d9d46bfb49d215e984f2eb64e9daa9f7a8104dea7439a5f3622", "notes": "Tabs and fields reordered to the way a job actually runs, client details first, camera data worked out from how you shoot, and typing no longer loses its place"}

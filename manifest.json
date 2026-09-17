@@ -1,7 +1,1 @@
-{
-  "version": "1.6.2",
-  "shell": "1.6.0",
-  "file": "ui/ui-1.6.2.html",
-  "sha256": "9750eb958561b484db8f1e73f743d4ce9c0c689cf7f7a5c2d8682745b1aac032",
-  "notes": "Plan tab: kit, camera positions, data calculator, prep sheet and weather"
-}
+{"version": "1.6.3", "shell": "1.6.0", "file": "ui/ui-1.6.3.html", "sha256": "5e6a9f111071fb9fc50024d77f488587ab8425b916992f7d7fa28decba5dac25", "notes": "Your book: clients hot to burned, venues with their quirks and lessons, travel and accommodation, invoice nudges, and the year by client or venue"}

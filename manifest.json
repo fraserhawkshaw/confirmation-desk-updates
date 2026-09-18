@@ -1,1 +1,1 @@
-{"version": "1.11.3", "shell": "1.6.0", "file": "ui/ui-1.11.3.html", "sha256": "61c3d71d770befa29eb77024b70b2c7fe2e250025436dce3a5458e94c585c17b", "notes": "Open in Mail now says how long it took and where the time went, so a slow one can be tracked down"}
+{"version": "1.12.1", "shell": "1.6.0", "file": "ui/ui-1.12.1.html", "sha256": "55851eb099566e49d0e531a16223093bb0b1c0e8a341614621294bfb735fce03", "notes": "Quote options now line up in one table with a tick under each package, so the columns are the same height, and you can remove someone from your crew book"}

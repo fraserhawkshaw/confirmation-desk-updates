@@ -1,7 +1,7 @@
 {
-  "version": "1.23.4",
+  "version": "1.23.5",
   "shell": "1.16.0",
-  "file": "ui/ui-1.23.4.html",
-  "sha256": "ac639b29aa740f9b6f1e8ccbf2c07cdcbe888f08beb706874a924a3366b46a8a",
-  "notes": "Equipment hire is now one block on the quote instead of a row per hire. The heading carries the total and each piece of kit sits under it with its own price beside it, in the same cell. The invoice still gets a line per item, which is what an invoice wants. Extra charges can be reordered: small up and down arrows on each charge, greyed out at the ends, and the quote follows whatever order you put them in - the description and the amount travel with the row. And Vision Mixing on the quote now spells out the day rate on a job of more than one day, the way the crew rows do: 2 days x 500 pounds day rate, worked out from the fee and the dates, so there is nothing extra to keep up to date. A single-day job does not get the line, because the price already says it."
+  "file": "ui/ui-1.23.5.html",
+  "sha256": "85ff40339f946c981031e0bb1fdbb3cad5abf40846d21d9a50a49fbe8189a2dd",
+  "notes": "Hires are priced by the day now instead of as one lump. Each hire on the Plan step has a Days box, and the two money boxes are day rates: cost per day and charge per day, with a header strip naming the columns so three numbers in a row are not a guessing game. The quote multiplies them out - Sony FX6 x2, 2 days times 200 pounds day rate, 400 pounds - and a one-day hire stays a plain line, because the price already says it. The invoice bills the days as the quantity at the day rate, which is what an invoice should show. Hires you recorded before this have no days on them, so they count as one day and their old totals come through unchanged. The hint under each row does the maths as you type, including what the whole hire costs you over the days and the margin on it, and the cost offered as a one-tap job cost is now the whole hire rather than a single day."
 }

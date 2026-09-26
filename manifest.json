@@ -1,7 +1,7 @@
 {
-  "version": "1.23.1",
+  "version": "1.23.2",
   "shell": "1.16.0",
-  "file": "ui/ui-1.23.1.html",
-  "sha256": "f326591963f052c6f4f0870a32ff45ab8b66cf6df4370afdfd98c6ec3bd9362b",
-  "notes": "Wording pass over the emails. The openings say video coverage rather than content recording, and custom coverage text no longer keeps a capital letter in the middle of a sentence. The confirmation asked to be confirmed twice, once in the opening line right before We are locked in, which read as a contradiction - it now asks once, at the end, next to the reply. The locked-in line drops the as defined in my Terms bracket. The Agreement paragraph no longer apologises for the Terms being long; it says which sections do not apply and leaves it there. Pricing stops restating the subtotal and VAT under a total that already shows them. Usage and Rights is broken into one idea per line with the broadcaster exception out of its bracket and into its own sentence. Final deliverables follow within 24 hours of your feedback rather than after feedback is received. Camera framing has moved out of Services Included, where it read as something being sold, into Track Selection and Positioning - or its own short section when track selection is off. The delivery email cited three clause numbers in two sentences and read like a letter before action; the rules are unchanged but section 10 is cited once and the fix-it line is a warm one."
+  "file": "ui/ui-1.23.2.html",
+  "sha256": "7d59e873042671314ae14178acf3ae520fbf2361c044145dc08f63e32bfd66cd",
+  "notes": "Three things for the quote. Vision Mixing on the quote now reads Vision Mixing - Fraser Hawkshaw, so a client reading it can tell that role is you and not the hired vision mixer priced underneath it. Your signature title can be set per job: a new box under Sign-off, My title on this job - type IMAG Director and Vision Mixer for a job where that is the role, and leave it blank on every other job to keep whatever Settings says. It applies to the signature on every email for that job and to the On The Day line in the crew email. And every extra charge now has a description box under it, the same as the service descriptions, so a charge can explain itself on the quote instead of being a bare line and a number. One line per point."
 }

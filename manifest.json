@@ -1,7 +1,7 @@
 {
-  "version": "1.23.8",
+  "version": "1.23.9",
   "shell": "1.16.0",
-  "file": "ui/ui-1.23.8.html",
-  "sha256": "b78af62971e5384ddfde026708a7729c1f79f143aa3db1fd69bd244b06fe2f52",
-  "notes": "Two new bookable services. IMAG direction sits on its own, and when it and vision mixing are both ticked they bill as one line reading IMAG Direction and Vision Mixing - Fraser Hawkshaw, with the two prices added together - the same merging that already joins highlights with full set capture, since directing the screen mix and mixing it is one person at one desk. Ticked on its own, IMAG direction is its own named line. Pre-production is the second: recce, camera plan, crew and kit booking, carnet and travel logistics, priced as a service rather than as a crew booking, so it reads as your own work on the quote and stays out of the crew booking emails and the freelance agreement chasing, which is what would have happened had it gone in as a crew row. All the lines that are you - pre-production, IMAG direction, vision mixing and the merged pair - carry your name on the quote and spell out the day rate on a job of more than one day, so a client can tell them apart from a hired vision mixer priced underneath."
+  "file": "ui/ui-1.23.9.html",
+  "sha256": "b1cd2c6f331a201fae2d79d9a2a7d56c1b548bc20ee135f7275882850f30aedf",
+  "notes": "Pre-production is a flat fee now. It keeps your name and its description on the quote but no longer breaks the price down into days, because the work runs over weeks of recces, plans and bookings rather than a countable number of days on site - dividing the fee by the event dates was stating something that is not true. IMAG direction and vision mixing still spell out their day rate, since those really are days at the desk."
 }

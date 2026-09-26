@@ -1,7 +1,7 @@
 {
-  "version": "1.23.9",
+  "version": "1.23.10",
   "shell": "1.16.0",
-  "file": "ui/ui-1.23.9.html",
-  "sha256": "b1cd2c6f331a201fae2d79d9a2a7d56c1b548bc20ee135f7275882850f30aedf",
-  "notes": "Pre-production is a flat fee now. It keeps your name and its description on the quote but no longer breaks the price down into days, because the work runs over weeks of recces, plans and bookings rather than a countable number of days on site - dividing the fee by the event dates was stating something that is not true. IMAG direction and vision mixing still spell out their day rate, since those really are days at the desk."
+  "file": "ui/ui-1.23.10.html",
+  "sha256": "9796b3e1d77fc3e5decc36d453fa714e1c0d3afb692f3f35c7dd3c1ae9466448",
+  "notes": "Crew rows have a This is me - don't book tick. The line stays on the quote and in the crew subtotal, but it comes out of the booking emails, the roll-call and the agreement chasing, and it is no longer offered as a cost, because your own time is not money going out. Use it for your own roles and for lines like Travel days that are a charge rather than a person. Ticking it hides the email and agreement boxes, which no longer mean anything on that row. Hires now have a quantity as well as days, so four comms packs for three days is one line that multiplies out, and the invoice bills quantity times days at the day rate so it agrees with the quote to the penny. The hire row is laid out over two lines instead of five boxes squashed onto one - what it is on top, the numbers underneath with a label on each - so nothing is half-visible however narrow the middle pane is, and the column header strip is gone because there is nothing left to keep aligned. The warning about no operators on site is gone: directing a mix off cameras someone else is running is a real booking, and zero is the right answer on those jobs."
 }

@@ -1,7 +1,7 @@
 {
-  "version": "1.23.2",
+  "version": "1.23.3",
   "shell": "1.16.0",
-  "file": "ui/ui-1.23.2.html",
-  "sha256": "7d59e873042671314ae14178acf3ae520fbf2361c044145dc08f63e32bfd66cd",
-  "notes": "Three things for the quote. Vision Mixing on the quote now reads Vision Mixing - Fraser Hawkshaw, so a client reading it can tell that role is you and not the hired vision mixer priced underneath it. Your signature title can be set per job: a new box under Sign-off, My title on this job - type IMAG Director and Vision Mixer for a job where that is the role, and leave it blank on every other job to keep whatever Settings says. It applies to the signature on every email for that job and to the On The Day line in the crew email. And every extra charge now has a description box under it, the same as the service descriptions, so a charge can explain itself on the quote instead of being a bare line and a number. One line per point."
+  "file": "ui/ui-1.23.3.html",
+  "sha256": "acf582e780913db4c5904812bdada9846794fbf314fc0aa4f8ac4d4bc42446fd",
+  "notes": "Hired-in kit and rebilled costs now reach the quote. Every hire on the Plan step has two money boxes: what it costs you, and what the client pays. Put a figure in the second one and the hire becomes a line on the quote, the confirmation and the QuickBooks invoice, and goes into the total. Leave it blank and the hire stays internal exactly as before - nothing you already recorded starts being billed on its own. What you paid and who you hired from never appear in an email. Under each row a line tells you what it is doing: on the quote at 400 pounds, costs you 240, margin 160. The Rebill tick on a cost row now does something too: rebilled costs appear as their own lines the same way, so travel and accommodation no longer have to be retyped as extras. If the same thing is both charged on as a hire and rebilled as a cost the checks panel warns you, because that bills it twice. And what a hire costs you is now offered as a job cost with one tap, next to the crew day rates, so the profit on a job with hired kit stops reading high."
 }

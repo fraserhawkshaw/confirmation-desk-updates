@@ -1,7 +1,7 @@
 {
-  "version": "1.23.3",
+  "version": "1.23.4",
   "shell": "1.16.0",
-  "file": "ui/ui-1.23.3.html",
-  "sha256": "acf582e780913db4c5904812bdada9846794fbf314fc0aa4f8ac4d4bc42446fd",
-  "notes": "Hired-in kit and rebilled costs now reach the quote. Every hire on the Plan step has two money boxes: what it costs you, and what the client pays. Put a figure in the second one and the hire becomes a line on the quote, the confirmation and the QuickBooks invoice, and goes into the total. Leave it blank and the hire stays internal exactly as before - nothing you already recorded starts being billed on its own. What you paid and who you hired from never appear in an email. Under each row a line tells you what it is doing: on the quote at 400 pounds, costs you 240, margin 160. The Rebill tick on a cost row now does something too: rebilled costs appear as their own lines the same way, so travel and accommodation no longer have to be retyped as extras. If the same thing is both charged on as a hire and rebilled as a cost the checks panel warns you, because that bills it twice. And what a hire costs you is now offered as a job cost with one tap, next to the crew day rates, so the profit on a job with hired kit stops reading high."
+  "file": "ui/ui-1.23.4.html",
+  "sha256": "ac639b29aa740f9b6f1e8ccbf2c07cdcbe888f08beb706874a924a3366b46a8a",
+  "notes": "Equipment hire is now one block on the quote instead of a row per hire. The heading carries the total and each piece of kit sits under it with its own price beside it, in the same cell. The invoice still gets a line per item, which is what an invoice wants. Extra charges can be reordered: small up and down arrows on each charge, greyed out at the ends, and the quote follows whatever order you put them in - the description and the amount travel with the row. And Vision Mixing on the quote now spells out the day rate on a job of more than one day, the way the crew rows do: 2 days x 500 pounds day rate, worked out from the fee and the dates, so there is nothing extra to keep up to date. A single-day job does not get the line, because the price already says it."
 }

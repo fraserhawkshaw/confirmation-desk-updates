@@ -1,7 +1,7 @@
 {
-  "version": "1.23.5",
+  "version": "1.23.6",
   "shell": "1.16.0",
-  "file": "ui/ui-1.23.5.html",
-  "sha256": "85ff40339f946c981031e0bb1fdbb3cad5abf40846d21d9a50a49fbe8189a2dd",
-  "notes": "Hires are priced by the day now instead of as one lump. Each hire on the Plan step has a Days box, and the two money boxes are day rates: cost per day and charge per day, with a header strip naming the columns so three numbers in a row are not a guessing game. The quote multiplies them out - Sony FX6 x2, 2 days times 200 pounds day rate, 400 pounds - and a one-day hire stays a plain line, because the price already says it. The invoice bills the days as the quantity at the day rate, which is what an invoice should show. Hires you recorded before this have no days on them, so they count as one day and their old totals come through unchanged. The hint under each row does the maths as you type, including what the whole hire costs you over the days and the margin on it, and the cost offered as a one-tap job cost is now the whole hire rather than a single day."
+  "file": "ui/ui-1.23.6.html",
+  "sha256": "567596666138c2d31a3c121109a71f5de0b8f60801e46f1d9c96bcb328235998",
+  "notes": "The column headings over the Hiring in boxes were sitting to the right of the boxes they name, at every window size. The header row is its own grid and had nothing in its last column where the Remove button sits, so the flexible columns swallowed that width and everything drifted. It now carries a hidden copy of the button, so the two grids come out identical, and each label is measured to land exactly on its box. The labels are shorter - Item, From, Days, Cost per day, Charge per day - so none of them clip, and the strip hides itself when the middle pane is dragged too narrow for them to read, which the old window-width rule never caught. Crew can also be reordered now: the same up and down arrows the extra charges have, on each crew card, greyed out at the ends. The quote and the Your Crew list in the confirmation both follow whatever order you put them in, and the rate, role and days travel with the card."
 }

@@ -1,7 +1,7 @@
 {
-  "version": "1.23.11",
+  "version": "1.23.12",
   "shell": "1.16.0",
-  "file": "ui/ui-1.23.11.html",
-  "sha256": "dd7eef04ceda25cba3a4349508fd04c1c6ab096428f47b2fa933e84b2cd59127",
-  "notes": "Two fixes to the emails. The venue was disappearing from the heading, the opening line and the subject as soon as a job had a second date. Only the first day carries the venue - the rest are blank by design - and the heading was demanding one on every day, so a two-day booking at one venue failed that test and the venue was dropped silently rather than replaced with anything. It now only expects a venue per day when the days really are separate events, which is the case it was written for. And the delivery email said plain Highlights where the confirmation the client already has says multi-cam highlights coverage. Multi-cam was being worked out separately in each place that says it and the delivery email was not one of them; it is now one definition used everywhere, so the two emails name the booking the same way, it follows the multi-cam tick, and a custom package name still overrides it."
+  "file": "ui/ui-1.23.12.html",
+  "sha256": "3bfc529be73d1df12264ea2e22b9fdaa5b10d0d6128588a93ec9427c1e22ed49",
+  "notes": "A job is marked Wrapped up once every box on the progress rail is ticked. There was no route to that stage at all before except cancelling the job, so anything you had finished and invoiced sat in the on-the-go list for ever. The brown Invoice chip is gone with it: ticking the rail never touched the invoice status, so the nudge kept firing on a job you had already dealt with. Nothing needing attention is raised on a job whose rail is complete. It works either way round - tick the Invoice box by hand for one you settled outside the app, or mark it Paid in the Money tab and the box ticks itself - and untick anything and the job reopens exactly as it was."
 }

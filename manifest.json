@@ -1,7 +1,7 @@
 {
-  "version": "1.24.5",
+  "version": "1.24.6",
   "shell": "1.16.0",
-  "file": "ui/ui-1.24.5.html",
-  "sha256": "131eca6297629111c95671dffae6ef78ab2f58fb9a9af2cdff559ff73f891e38",
-  "notes": "The What's Changed box now stretches in Apple Mail. It was the only box in the email carrying its width in an inline style and its spacing in a table margin, and Apple Mail rewrites both when you paste - so it came out shrink-to-fit while everything around it filled the width. It is now built exactly like the summary card under it, which always pasted correctly, and there's a test pinning the two to the same width from 320px up. Pressing Copy email no longer empties the box. Copy is what marks the confirmation as sent, so the baseline rolled forward the moment you pressed it: the email in your clipboard had the list, the app showed none, and copying a second time would have sent the client an empty confirmation. The list the send carried now stands until the job changes again, at which point the newer changes replace it. Starting the changes from scratch still clears it."
+  "file": "ui/ui-1.24.6.html",
+  "sha256": "d36e2c8e3e99f0f64650f44e9542ece0e63a82174c41daaa7e7eaf2d47aad9e9",
+  "notes": "On The Day no longer marks the recipient's own line with \"that's you\". Everyone on the crew email now reads as a plain list of names, roles and numbers."
 }

@@ -1,7 +1,7 @@
 {
-  "version": "1.24.2",
+  "version": "1.24.3",
   "shell": "1.16.0",
-  "file": "ui/ui-1.24.2.html",
-  "sha256": "128ab4675b4af88e0d74c6c48bd75bd124bc6eb291c9152ae90c0d4eecb3f186",
-  "notes": "The What's Changed box now appears on the confirmation itself. It only ever lived on the separate Revised document before, so a confirmation sent after something changed looked identical to the first one and you had to know to switch documents to get the list. A confirmation with a baseline to compare against and real changes since it now carries the box, and opens by saying it replaces the one sent before, because a client receiving a list of changes with no explanation would wonder what they were reading. A first confirmation, or one with nothing changed since it was sent, is unaffected. Sending it resets the baseline so the box clears. The Revised document still works exactly as it did, and turning off the automatic change detection keeps the confirmation plain."
+  "file": "ui/ui-1.24.3.html",
+  "sha256": "6a837ed52389b5cbd89a4c9445f741d26601de3a5a85ec3eece241d67837e2da",
+  "notes": "The What's Changed box now actually shows on the confirmation you look at. 1.24.2 put it on the plain-text version only: the designed email that you copy and send was still deciding on its own that a confirmation never carries the box, so it never appeared and the release looked like it had done nothing. Both versions now follow whatever the email has actually turned out to be, so the amber box sits above the You're locked in for card, exactly where it does on the quote. Nothing else changes: a first confirmation, or one with nothing changed since it was sent, stays plain, and sending resets the baseline."
 }

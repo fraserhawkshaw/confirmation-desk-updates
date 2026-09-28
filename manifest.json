@@ -1,7 +1,7 @@
 {
-  "version": "1.24.4",
+  "version": "1.24.5",
   "shell": "1.16.0",
-  "file": "ui/ui-1.24.4.html",
-  "sha256": "54004420d3576567b9c849997bdaf5bd77793ffa5c533008e644b4df64cadc73",
-  "notes": "Operators on-site now counts itself from the crew list. You type that number when you first set a job up and then build the crew afterwards, so it goes stale the moment you add an operator - the Indo Warehouse crew email said 1 operator with two of you on it. Once the crew list names any camera operators the emails use that count, you included: 'this is me - don't book' stops the booking email, it doesn't stop you being on site. Assistants, ACs and vision mixers aren't counted. It never goes below what you typed, in case someone isn't listed yet, and it tells you when the crew list is short. Crew rows now take a phone number, and On The Day lists everyone's role and number so nobody is ringing round on the night. Your own 'this is me' rows aren't listed twice there any more. The 'You're booked as' box says Rate rather than Day rate, since not every rate is a day."
+  "file": "ui/ui-1.24.5.html",
+  "sha256": "131eca6297629111c95671dffae6ef78ab2f58fb9a9af2cdff559ff73f891e38",
+  "notes": "The What's Changed box now stretches in Apple Mail. It was the only box in the email carrying its width in an inline style and its spacing in a table margin, and Apple Mail rewrites both when you paste - so it came out shrink-to-fit while everything around it filled the width. It is now built exactly like the summary card under it, which always pasted correctly, and there's a test pinning the two to the same width from 320px up. Pressing Copy email no longer empties the box. Copy is what marks the confirmation as sent, so the baseline rolled forward the moment you pressed it: the email in your clipboard had the list, the app showed none, and copying a second time would have sent the client an empty confirmation. The list the send carried now stands until the job changes again, at which point the newer changes replace it. Starting the changes from scratch still clears it."
 }

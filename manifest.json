@@ -1,7 +1,7 @@
 {
-  "version": "1.25.0",
+  "version": "1.25.1",
   "shell": "1.16.0",
-  "file": "ui/ui-1.25.0.html",
-  "sha256": "e5e6c6b60cf58af63fd59c6e349cd2668da301dd790866d7dbcdbcdd1596d30a",
-  "notes": "Crew call and wrap are now times you can state on a job, under the event times. They were only ever worked out before - rig time back from the start, pack-down forward from the end - and on KI/KI that guessed 11:00 and 03:00 against your real 14:00 and 04:00, which also put the on-site total at 16 hours instead of 14. State either and the quote, confirmation and crew email print Call 14:00 - Show 18:30-02:00 - Wrap 04:00 instead of one range, and the hours in the fee are measured between them. Leave both blank and nothing changes. New per-job option to state an overtime rate on the quote, off by default: a percentage of each crew member's own day rate, charged per hour in half-hour blocks or per half hour, counting from the wrap. The production fee now names what it was actually charged on, so a job with nothing rebilled reads crew & hire rather than crew, hire & logistics."
+  "file": "ui/ui-1.25.1.html",
+  "sha256": "ee84b6bed5a2ecdf94338ee697cc92ff2a466c905c6dbd14ad774cbd1d51ae24",
+  "notes": "The load-in time now reaches the quote. It only ever went to the prep sheet and the confirmation, so typing one and looking at the quote showed nothing. It joins the times line as Load-in 12:00 - Call 14:00 - Show 18:30-02:00 - Wrap 04:00, and stating a load-in on its own is enough to bring that line in. Its label is now just Load-in, which is why it sat lower than the two boxes beside it: the old wording wrapped onto a second line at a third of the row and pushed the box down. What it's for has moved into the hint underneath. Two fixes found while checking it: the crew booking email could show two different call times, its own and a derived one, so the new call time now follows the crew call when you haven't set one; and the confirmation listed the load-in twice once the times line carried it."
 }

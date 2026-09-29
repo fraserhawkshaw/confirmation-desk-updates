@@ -1,7 +1,7 @@
 {
-  "version": "1.24.6",
+  "version": "1.25.0",
   "shell": "1.16.0",
-  "file": "ui/ui-1.24.6.html",
-  "sha256": "d36e2c8e3e99f0f64650f44e9542ece0e63a82174c41daaa7e7eaf2d47aad9e9",
-  "notes": "On The Day no longer marks the recipient's own line with \"that's you\". Everyone on the crew email now reads as a plain list of names, roles and numbers."
+  "file": "ui/ui-1.25.0.html",
+  "sha256": "e5e6c6b60cf58af63fd59c6e349cd2668da301dd790866d7dbcdbcdd1596d30a",
+  "notes": "Crew call and wrap are now times you can state on a job, under the event times. They were only ever worked out before - rig time back from the start, pack-down forward from the end - and on KI/KI that guessed 11:00 and 03:00 against your real 14:00 and 04:00, which also put the on-site total at 16 hours instead of 14. State either and the quote, confirmation and crew email print Call 14:00 - Show 18:30-02:00 - Wrap 04:00 instead of one range, and the hours in the fee are measured between them. Leave both blank and nothing changes. New per-job option to state an overtime rate on the quote, off by default: a percentage of each crew member's own day rate, charged per hour in half-hour blocks or per half hour, counting from the wrap. The production fee now names what it was actually charged on, so a job with nothing rebilled reads crew & hire rather than crew, hire & logistics."
 }

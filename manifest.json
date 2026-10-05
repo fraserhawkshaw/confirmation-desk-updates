@@ -1,7 +1,7 @@
 {
-  "version": "1.26.0",
+  "version": "1.26.1",
   "shell": "1.16.0",
-  "file": "ui/ui-1.26.0.html",
-  "sha256": "7e55a4f03f2f130ba6eb7c46420198491e448d4a0053a9eef769344c9f1d11a9",
-  "notes": "A Status box at the top of The job, so you can set where a job has got to instead of only having it worked out for you. It starts on automatic and tells you what that works out to; pick one and it stands until you clear it. Cancelled is now one of the choices, and a real one: a job that was called off used to read as Wrapped up next to the ones you actually delivered, and it still asked you to raise an invoice for a night that never happened. It now says Cancelled, files with the past, and goes quiet. Dark mode is black rather than dark blue - true black behind the app, near-black panels and neutral greys throughout, with the blue kept only for the accent. Every text colour was checked against its background for contrast first."
+  "file": "ui/ui-1.26.1.html",
+  "sha256": "44e08da78af3fe8817916faffe4039942a7f3d962c35da30cf1f949e473737b9",
+  "notes": "A status you set by hand now shows in the jobs list even when the job is being nudged. The nudge chip replaced the status chip outright, so setting Beatport Live to Confirmed changed nothing you could see - Cancelled only appeared because cancelling silences the nudge. Both are shown now, and every status has its own colour. The Other changes or a note box reaches the email: a note typed with nothing else changed used to go nowhere, because the box only appeared when the comparison found something - which is exactly the case where you have to write it yourself. The What's Changed list now has a cross on each line to leave it off the email, and an arrow to put it back, so dropping one line no longer means clearing the job, pressing the starting-point button and typing the changes in again. The job itself is untouched either way. That list also appears on the confirmation now; it was only ever drawn on the Revised document, so a confirmation showed an empty panel."
 }

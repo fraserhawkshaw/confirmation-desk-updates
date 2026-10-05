@@ -1,7 +1,7 @@
 {
-  "version": "1.25.1",
+  "version": "1.26.0",
   "shell": "1.16.0",
-  "file": "ui/ui-1.25.1.html",
-  "sha256": "ee84b6bed5a2ecdf94338ee697cc92ff2a466c905c6dbd14ad774cbd1d51ae24",
-  "notes": "The load-in time now reaches the quote. It only ever went to the prep sheet and the confirmation, so typing one and looking at the quote showed nothing. It joins the times line as Load-in 12:00 - Call 14:00 - Show 18:30-02:00 - Wrap 04:00, and stating a load-in on its own is enough to bring that line in. Its label is now just Load-in, which is why it sat lower than the two boxes beside it: the old wording wrapped onto a second line at a third of the row and pushed the box down. What it's for has moved into the hint underneath. Two fixes found while checking it: the crew booking email could show two different call times, its own and a derived one, so the new call time now follows the crew call when you haven't set one; and the confirmation listed the load-in twice once the times line carried it."
+  "file": "ui/ui-1.26.0.html",
+  "sha256": "7e55a4f03f2f130ba6eb7c46420198491e448d4a0053a9eef769344c9f1d11a9",
+  "notes": "A Status box at the top of The job, so you can set where a job has got to instead of only having it worked out for you. It starts on automatic and tells you what that works out to; pick one and it stands until you clear it. Cancelled is now one of the choices, and a real one: a job that was called off used to read as Wrapped up next to the ones you actually delivered, and it still asked you to raise an invoice for a night that never happened. It now says Cancelled, files with the past, and goes quiet. Dark mode is black rather than dark blue - true black behind the app, near-black panels and neutral greys throughout, with the blue kept only for the accent. Every text colour was checked against its background for contrast first."
 }

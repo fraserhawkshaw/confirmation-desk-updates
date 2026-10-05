@@ -1,7 +1,7 @@
 {
-  "version": "1.26.1",
+  "version": "1.26.2",
   "shell": "1.16.0",
-  "file": "ui/ui-1.26.1.html",
-  "sha256": "44e08da78af3fe8817916faffe4039942a7f3d962c35da30cf1f949e473737b9",
-  "notes": "A status you set by hand now shows in the jobs list even when the job is being nudged. The nudge chip replaced the status chip outright, so setting Beatport Live to Confirmed changed nothing you could see - Cancelled only appeared because cancelling silences the nudge. Both are shown now, and every status has its own colour. The Other changes or a note box reaches the email: a note typed with nothing else changed used to go nowhere, because the box only appeared when the comparison found something - which is exactly the case where you have to write it yourself. The What's Changed list now has a cross on each line to leave it off the email, and an arrow to put it back, so dropping one line no longer means clearing the job, pressing the starting-point button and typing the changes in again. The job itself is untouched either way. That list also appears on the confirmation now; it was only ever drawn on the Revised document, so a confirmation showed an empty panel."
+  "file": "ui/ui-1.26.2.html",
+  "sha256": "6230a7b7495b0b1ddbfc4fbd5b0edfef552bd677432bbe62960bf1146b482f71",
+  "notes": "A job you've marked Confirmed is no longer chased for a confirmation. The nudges read the status - what the app watched you send - while the chip reads the stage you set, so a job confirmed on the phone sat there saying Confirmed and 'not confirmed yet' in the same row. Where you've set a status of Confirmed or later by hand, the two nudges that exist to get a job confirmed stand down; mark it back to Quoted and they return, because then you're saying it isn't confirmed. Jobs left on automatic behave exactly as before."
 }

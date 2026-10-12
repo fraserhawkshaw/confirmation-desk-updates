@@ -1,0 +1,1 @@
+{"version": "1.29.4", "shell": "1.16.0", "file": "ui/ui-1.29.4.html", "sha256": "c5aad6e2d689333ed42e65689a5a3cd30cd19cc6ddf2314366ec0de0279afbfa", "notes": "Find a field is a magnifying glass now rather than a permanent search box – it was sitting across the job name. Click it, or press Cmd+K, and it opens; leave it empty and it folds back up."}
